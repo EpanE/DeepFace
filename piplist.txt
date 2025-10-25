@@ -1,0 +1,13 @@
+## Then install https://visualstudio.microsoft.com/visual-cpp-build-tools/
+## Download and run the installer
+## download the "Desktop development with C++"
+## Deactivate and reactivate your virtual environment
+deactivate
+venv\Scripts\activate
+
+python.exe -m pip install --upgrade pip
+pip install tensorflow==2.13.0
+pip install deepface
+pip install matplotlib
+pip install dlib
+pip install --default-timeout=100 PyQt5
